@@ -32,6 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="180dp"
                         android:layout_height="230dp"
@@ -40,6 +41,7 @@
                         android:maxWidth="130dp"
                         android:maxHeight="180dp"
                         android:src="@drawable/image_border" />
+
                     <Button
                         android:layout_width="160dp"
                         android:layout_height="40dp"
@@ -47,59 +49,60 @@
                         android:layout_marginTop="250dp"
                         android:text="사진선택"
                         android:textSize="15dp" />
+
                     <EditText
                         android:id="@+id/bmi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="215dp"
                         android:layout_marginTop="50dp"
-                        android:textSize="18dp"
                         android:hint="몸무게를 입력하세요"
-                        android:inputType="number" />
+                        android:inputType="number"
+                        android:textSize="18dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="적정 음수량"
-                        android:textSize="20dp"
+                        android:layout_marginLeft="220dp"
                         android:layout_marginTop="120dp"
-                        android:layout_marginLeft="220dp"/>
+                        android:text="적정 음수량"
+                        android:textSize="20dp" />
+
                     <TextView
                         android:id="@+id/water"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="120dp"
                         android:layout_marginLeft="330dp"
-                        android:textSize="22dp"
-                        android:hint="--- ml" />
+                        android:layout_marginTop="120dp"
+                        android:hint="--- ml"
+                        android:textSize="22dp" />
 
                     <TextView
                         android:id="@+id/today1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="오늘"
-                        android:textSize="30dp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="380dp"
-                        />
+                        android:text="오늘"
+                        android:textSize="30dp" />
 
                     <ImageButton
                         android:id="@+id/cup1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cup"
-                        android:layout_marginTop="450dp"
                         android:layout_marginLeft="18dp"
+                        android:layout_marginTop="450dp"
                         android:layout_marginBottom="20dp"
-                        />
+                        android:src="@drawable/cup" />
+
                     <ImageButton
                         android:id="@+id/cup2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cup"
-                        android:layout_marginTop="450dp"
                         android:layout_marginLeft="200dp"
+                        android:layout_marginTop="450dp"
                         android:layout_marginBottom="20dp"
-                        />
+                        android:src="@drawable/cup" />
 
                 </FrameLayout>
 
@@ -118,6 +121,32 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="30dp"
                         />
+
+                    <EditText
+                        android:id="@+id/goal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginTop="70dp"
+                        android:hint="오늘의 목표"
+                        android:inputType="number"
+                        android:textSize="25dp" />
+
+                    <ImageButton
+                        android:id="@+id/pet1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="200dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/pet" />
+
+                    <ImageButton
+                        android:id="@+id/pet2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="200dp"
+                        android:layout_marginLeft="200dp"
+                        android:src="@drawable/pet" />
 
 
 
